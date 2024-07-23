@@ -1,0 +1,13 @@
+0: LDI 1
+1: STA $e
+2: LDI 0
+3: OUT $f
+4: ADD $e
+5: STA $f
+6: LDA $e
+7: STA $d
+8: LDA $f
+9: STA $e
+a: LDA $d
+b: JMC 0
+c: JMP 3
